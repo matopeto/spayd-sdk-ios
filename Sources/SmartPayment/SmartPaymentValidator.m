@@ -345,7 +345,7 @@
 }
 
 - (NSNumber *)validateBoolean:(NSString *)rawValue error:(NSString **)error {
-	return [rawValue integerValue] == 0 ? @(0) : @(1);
+	return [rawValue integerValue] == 0 ? @(FALSE) : @(TRUE);
 }
 
 @end
